@@ -1,0 +1,11 @@
+The dataset is organized into two primary files for a typical machine learning workflow: train.csv and test.csv.
+
+The training file, train.csv, is comprehensive, containing all the data required to develop a predictive model. It features four columns:
+1. sample_id: A unique identifier for each product record.
+2. catalog_content: The descriptive text detailing the product (e.g., title, features).
+3. image_link: A URL or path to the product's associated image.
+4. price: The target variable for the prediction task, which the model is intended to learn.
+
+The testing file, test.csv, is used for evaluation and holds only the input features necessary for making predictions on unseen data. It contains the first three columns: sample_id, catalog_content, and image_link. The price column is deliberately excluded, as its values are what the trained model must predict.
+
+THE DATASET IS AVAILABLE ON ONLINE PLATFORMS LIKE UNSTOP OR KAGGLE....
